@@ -1,5 +1,5 @@
 var createBase = (base) =>{
-    return function(number){
+    return (number) => {
         return base+number;
     }
 }
